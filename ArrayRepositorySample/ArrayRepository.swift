@@ -45,6 +45,10 @@ extension ArrayRepository {
             self.observer = observer
         }
 
+        deinit {
+            invalidate()
+        }
+
         func invalidate() {
             if let observer = observer {
                 center.removeObserver(observer)
