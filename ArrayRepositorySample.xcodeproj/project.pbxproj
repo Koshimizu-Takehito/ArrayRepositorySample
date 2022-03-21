@@ -16,6 +16,7 @@
 		FBB6558E27E834C200C52239 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6558D27E834C200C52239 /* NotificationToken.swift */; };
 		FBB6559027E834DA00C52239 /* ArrayRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6558F27E834DA00C52239 /* ArrayRepository.swift */; };
 		FBB6559227E838A500C52239 /* SampleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6559127E838A500C52239 /* SampleDetailViewController.swift */; };
+		FBB6559427E8427600C52239 /* DateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6559327E8427600C52239 /* DateRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FBB6558D27E834C200C52239 /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		FBB6558F27E834DA00C52239 /* ArrayRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRepository.swift; sourceTree = "<group>"; };
 		FBB6559127E838A500C52239 /* SampleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDetailViewController.swift; sourceTree = "<group>"; };
+		FBB6559327E8427600C52239 /* DateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				FBB6558B27E8343500C52239 /* SampleTableViewController.swift */,
 				FBB6559127E838A500C52239 /* SampleDetailViewController.swift */,
 				FBB6558F27E834DA00C52239 /* ArrayRepository.swift */,
+				FBB6559327E8427600C52239 /* DateRepository.swift */,
 				FBB6558D27E834C200C52239 /* NotificationToken.swift */,
 				FBB6557D27E8336F00C52239 /* Main.storyboard */,
 				FBB6558027E8337100C52239 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				FBB6557827E8336F00C52239 /* AppDelegate.swift in Sources */,
 				FBB6557A27E8336F00C52239 /* SceneDelegate.swift in Sources */,
+				FBB6559427E8427600C52239 /* DateRepository.swift in Sources */,
 				FBB6558E27E834C200C52239 /* NotificationToken.swift in Sources */,
 				FBB6559027E834DA00C52239 /* ArrayRepository.swift in Sources */,
 				FBB6559227E838A500C52239 /* SampleDetailViewController.swift in Sources */,

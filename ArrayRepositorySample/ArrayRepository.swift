@@ -8,7 +8,7 @@
 import Foundation
 
 class ArrayRepository<T> {
-    private let center = NotificationCenter.default
+    private let center: NotificationCenter
     private lazy var notificationName: NSNotification.Name
         = .init(rawValue: "\(type(of: self)).\(ObjectIdentifier(self))")
 
@@ -16,6 +16,10 @@ class ArrayRepository<T> {
         didSet {
             center.post(name: notificationName, object: nil)
         }
+    }
+
+    required init(center: NotificationCenter) {
+        self.center = center
     }
 
     func add(_ t: T) {

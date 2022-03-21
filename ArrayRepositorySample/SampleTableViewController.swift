@@ -9,7 +9,7 @@ import UIKit
 
 class SampleTableViewController: UITableViewController {
     private var token: NotificationToken?
-    private let repository = ArrayRepository<Date>()
+    private let repository: DateRepository = ArrayRepository.dateRepository()
     private var array: [Date] = [] {
         didSet {
             DispatchQueue.main.async { [weak tableView] in
